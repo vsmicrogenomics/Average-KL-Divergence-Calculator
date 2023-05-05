@@ -44,3 +44,9 @@ The combined output file will have the same format, with the addition of a row f
 To cite this code in Github, you can use the following citation statement:
 
 Vikas Sharma. 2023. Average KL Divergence Calculator [Software]. Github. Available from: https://github.com/vsmicrogenomics/Average-KL-Divergence-Calculator
+
+Acknowledgement
+
+This script uses the concept of Kullback-Leibler (KL) divergence, which is a measure of the relative entropy between two probability distributions. The KL divergence was first introduced by Kullback and Leibler in 1951, and has since been applied in various fields, including genomics. The method used to calculate the KL divergence in this script is based on the work by Bohlin et al. (2012), who applied the method to study the differences in genomic features between different bacterial elements. Their paper can be found here:
+
+Bohlin J., van Passel M.W., Snipen L., Kristoffersen A.B., Ussery D., Hardy S.P. Relative entropy differences in bacterial chromosomes, plasmids, phages and genomic islands. BMC Genom. 2012;13:66. doi: 10.1186/1471-2164-13-66.
