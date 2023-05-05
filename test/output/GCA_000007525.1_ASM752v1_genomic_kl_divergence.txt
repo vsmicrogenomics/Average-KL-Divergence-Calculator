@@ -1,0 +1,2 @@
+Filename	Average KL Divergence
+GCA_000007525.1_ASM752v1_genomic	0.22102055140582813

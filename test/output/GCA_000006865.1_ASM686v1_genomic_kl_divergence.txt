@@ -1,0 +1,2 @@
+Filename	Average KL Divergence
+GCA_000006865.1_ASM686v1_genomic	0.2375716366244885
