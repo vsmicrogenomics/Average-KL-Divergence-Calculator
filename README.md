@@ -41,6 +41,10 @@ The output files will have two columns: "Filename" and "Average KL Divergence". 
 
 The combined output file will have the same format, with the addition of a row for the overall average KL divergence across all input files.
 
+Test Samples
+
+Test samples and outputs are provided in the "test" directory of this repository. These can be used to test the script and verify that it is working correctly. The input files are located in the "test/input" directory, and the expected output files are located in the "test/output" directory. The test files have been named using the same format as the regular input and output files, and should produce the expected results when run through the script.
+
 To cite this code in Github, you can use the following citation statement:
 
 Vikas Sharma. 2023. Average KL Divergence Calculator [Software]. Github. Available from: https://github.com/vsmicrogenomics/Average-KL-Divergence-Calculator
