@@ -2,6 +2,20 @@ Average KL Divergence Calculator
 
 average-KL-divergence-calculator.py script calculates the average Kullback-Leibler (KL) divergence for each FASTA file in a given directory and produces a separate output file for each file with the calculated KL divergence. Additionally, it produces a combined output file with the average KL divergence for all input files.
 
+Mathematical expression
+
+KL Divergence Calculation:
+
+D_{KL}(P||Q) = \sum_{i} P(i) \log \frac{P(i)}{Q(i)}
+
+where P and Q are the observed and expected probability distributions of the tetramers, respectively. In the code, P is represented by obs_probs and Q is represented by exp_probs.
+
+Overall Average KL Divergence Calculation:
+
+(1/N) * \sum_{i=1}^{N} \bar{D}_{KL,i}
+
+where N is the number of input files, and \bar{D}_{KL,i} is the average KL divergence for the ith input file.
+
 Dependencies
 
 This script requires the following dependencies:
