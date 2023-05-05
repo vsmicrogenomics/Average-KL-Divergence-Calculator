@@ -1,6 +1,6 @@
 Average KL Divergence Calculator
 
-This script calculates the average Kullback-Leibler (KL) divergence for each FASTA file in a given directory and produces a separate output file for each file with the calculated KL divergence. Additionally, it produces a combined output file with the average KL divergence for all input files.
+average-KL-divergence-calculator.py script calculates the average Kullback-Leibler (KL) divergence for each FASTA file in a given directory and produces a separate output file for each file with the calculated KL divergence. Additionally, it produces a combined output file with the average KL divergence for all input files.
 
 Dependencies
 
